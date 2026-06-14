@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the code source to destination
 COPY . .
 
-# Add requirement for run application
+# Download requirement for runing application
 RUN pip install -r requirements.txt
 
 # Aplication runing this port
